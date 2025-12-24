@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <header
       id="main-header"
-      className="flex flex-col gap-4 p-8 justify-center items-center shadow-2xl bg-gradient-to-b from-[#322626] to-[#F5F5DC] md:gap-16 xl:gap-24 xl:flex-row xl:justify-between xl:pr-36 2xl:pr-52 2xl:gap-60"
+      className="flex flex-col gap-4 p-8 justify-center items-center shadow-2xl bg-linear-to-b from-[#322626] to-[#F5F5DC] md:gap-16 xl:gap-24 xl:flex-row xl:justify-between xl:pr-36 2xl:pr-52 2xl:gap-60"
     >
       <div className="flex flex-row gap-8 text-white group 2xl:gap-16">
         <span className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer">
