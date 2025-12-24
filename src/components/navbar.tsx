@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <header
@@ -5,15 +7,26 @@ export default function Navbar() {
       className="flex flex-col gap-4 p-8 justify-center items-center shadow-2xl bg-linear-to-b from-[#322626] to-[#F5F5DC] md:gap-16 xl:gap-24 xl:flex-row xl:justify-between xl:pr-36 2xl:pr-52 2xl:gap-60"
     >
       <div className="flex flex-row gap-8 text-white group 2xl:gap-16">
-        <span className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer">
+        <Link
+          href="/"
+          className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer"
+        >
           HOME
-        </span>
-        <span className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer">
+        </Link>
+
+        <Link
+          href="/about"
+          className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer"
+        >
           ABOUT
-        </span>
-        <span className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer">
+        </Link>
+
+        <Link
+          href="/gallery"
+          className="transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 cursor-pointer"
+        >
           GALLERY
-        </span>
+        </Link>
       </div>
 
       <div className="imperial-script text-3xl md:text-4xl text-white font-bold text-center">
