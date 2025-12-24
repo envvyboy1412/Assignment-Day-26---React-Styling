@@ -7,14 +7,12 @@ export default function About() {
     <>
       <Navbar />
 
-      {/* Hero About */}
       <HeroSection
         backgroundImage="/img/about/bg.webp"
         title="Your Neighbourhood Coffee Haven"
         subtitle="Crafted with passion, served with a smile. Discover the story behind every cup"
       />
 
-      {/* Our Story */}
       <section
         id="about-story"
         className="flex flex-col justify-center items-center m-16 gap-16 md:gap-8 xl:gap-16"
