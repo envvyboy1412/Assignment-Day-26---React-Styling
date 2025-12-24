@@ -109,12 +109,12 @@ const food = [
 
       <h3
         id="most-popular"
-        className="text-2xl font-bold m-8 xl:ml-60 gradient-text"
+        className="text-2xl font-bold m-8 lg:w-fit lg:h-fit lg:ml xl:ml-60 2xl:ml-130 gradient-text"
       >
         Most Popular
       </h3>
 
-      <section className="grid grid-cols-1 m-8 gap-8 md:grid-cols-2 xl:ml-60">
+      <section className="grid grid-cols-1 m-8 gap-8 md:grid-cols-2 lg:w-fit lg:h-fit lg:ml xl:ml-60 2xl:ml-130">
         {mostPopular.map((item) => (
           <Card
             key={item.nama}
@@ -128,12 +128,12 @@ const food = [
 
       <h3
   id="drinks"
-  className="text-2xl font-bold m-8 xl:ml-60 gradient-text"
+  className="text-2xl font-bold m-8 lg:w-fit lg:h-fit lg:ml xl:ml-60 2xl:ml-130 gradient-text"
 >
   Drinks
 </h3>
 
-<section className="grid grid-cols-1 m-8 gap-8 md:grid-cols-2 xl:ml-60">
+<section className="grid grid-cols-1 m-8 gap-8 md:grid-cols-2 lg:w-fit lg:h-fit lg:ml xl:ml-60 2xl:ml-130">
   {drinks.map((item) => (
     <Card
       key={item.nama}
@@ -147,12 +147,12 @@ const food = [
 
 <h3
   id="food"
-  className="text-2xl font-bold m-8 xl:ml-60 gradient-text"
+  className="text-2xl font-bold m-8 lg:w-fit lg:h-fit lg:ml xl:ml-60 2xl:ml-130 gradient-text"
 >
   Food
 </h3>
 
-<section className="grid grid-cols-1 m-8 gap-8 md:grid-cols-2 xl:ml-60">
+<section className="grid grid-cols-1 m-8 gap-8 md:grid-cols-2 lg:w-fit lg:h-fit lg:ml xl:ml-60 2xl:ml-130">
   {food.map((item) => (
     <Card
       key={item.nama}

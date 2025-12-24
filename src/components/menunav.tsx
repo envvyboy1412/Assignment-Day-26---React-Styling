@@ -6,19 +6,19 @@ export default function MenuNav() {
     >
       <a
         href="#most-popular"
-        className="text-black font-semibold text-xl transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100"
+        className="text-black font-semibold text-xl transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 2xl:text-3xl"
       >
         Most Popular
       </a>
       <a
         href="#drinks"
-        className="text-black font-semibold text-xl transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100"
+        className="text-black font-semibold text-xl transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 2xl:text-3xl"
       >
         Drinks
       </a>
       <a
         href="#food"
-        className="text-black font-semibold text-xl transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100"
+        className="text-black font-semibold text-xl transition-opacity duration-300 group-hover:opacity-40 hover:opacity-100 2xl:text-3xl"
       >
         Food
       </a>

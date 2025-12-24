@@ -24,3 +24,43 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 } */
+@keyframes colorCycle {
+  0% {
+    color: #5a3e36;
+  }
+
+  33% {
+    color: #6f4f3e;
+  }
+
+  66% {
+    color: #c8a77a;
+  }
+
+  100% {
+    color: #5a3e36;
+  }
+}
+
+.animate-color-cycle {
+  animation: colorCycle 5s infinite;
+}
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #6f4f3e, #c8a77a, #6f4f3e);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: -200% center; }
+}
+
+.imperial-script {
+  font-family: "Imperial Script", cursive;
+}
